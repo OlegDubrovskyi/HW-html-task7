@@ -18,12 +18,17 @@ body{
 	border-radius: 20px 0 0 20px;
 }
 
+.bow{
+	width: 50%;
+}
+
 .body1{
 	height: 200px;
 	width: 40% ;
 	background-color: #FFFFFF;
 	margin: 25%;
-	border-radius: 20px;
+	border-radius: 10px;
+	overflow: hidden;
 }
 
 .rigthBlock{
@@ -39,6 +44,7 @@ body{
 	width: 100%;
 	display: inline-block;
 	overflow: hidden;
+
 }
 
 .block1{
@@ -58,7 +64,7 @@ body{
   	overflow: hidden;
 }
 
-img{
+.pay{
 	height: 26px;
 	width: 26%;
 	margin-left: 40%;
@@ -75,6 +81,7 @@ img{
 
 .container1{
 	color:#FFFFFF;
+	text-decoration: none;
 }
 
 .button2{
@@ -88,8 +95,9 @@ img{
 
 .container2{
 	color:#FFFFFF;
+	text-decoration: none;
 }
 
-.text{
-
+span{
+	font-weight: bold;
 }
