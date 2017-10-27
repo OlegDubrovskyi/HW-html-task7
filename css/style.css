@@ -1,4 +1,95 @@
+
+body{
+	background-color: green;
+}
+
 .wrapper{
-	height: 500px;
-	width: 400px
+	height: 400px;
+	width: 35%;
+	background-color: #FFFFFF;
+	border-radius: 20px;
+}
+
+.leftBlock{
+	height: 400px;
+	width: 50%;
+	background-image: url(../img/redBackground.png);
+	float: left;
+	border-radius: 20px 0 0 20px;
+}
+
+.body1{
+	height: 200px;
+	width: 40% ;
+	background-color: #FFFFFF;
+	margin: 25%;
+	border-radius: 20px;
+}
+
+.rigthBlock{
+	height: 400px;
+	width: 50%;
+	background-color: #FFFFFF;
+	float: right;
+	border-radius: 0 20px 20px 0;
+}
+
+.body2{
+	height: 400px;
+	width: 100%;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.block1{
+	height: 40px;
+	background-color: yellow;
+}
+
+.way{
+	float: left;
+
+}
+
+.sprite{
+	position: relative;
+  	width: 100%;
+	height:26px;
+  	overflow: hidden;
+}
+
+img{
+	height: 26px;
+	width: 26%;
+	margin-left: 40%;
+}
+
+.button1{
+	width: 230px;
+	background-color: black;
+	border-radius: 30px;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.container1{
+	color:#FFFFFF;
+}
+
+.button2{
+	width: 230px;
+	background-color: black;
+	border-radius: 30px;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.container2{
+	color:#FFFFFF;
+}
+
+.text{
+
 }
