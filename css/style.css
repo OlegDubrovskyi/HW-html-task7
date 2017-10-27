@@ -4,57 +4,100 @@ body{
 }
 
 .wrapper{
-	height: 400px;
-	width: 35%;
+	height: 450px;
+	width: 73.5%;
 	background-color: #FFFFFF;
 	border-radius: 20px;
 }
 
 .leftBlock{
-	height: 400px;
-	width: 50%;
+	height: 450px;
+	width: 42.5%;
 	background-image: url(../img/redBackground.png);
 	float: left;
 	border-radius: 20px 0 0 20px;
 }
 
 .bow{
-	width: 50%;
+	width: 13%;
+    margin-left: 73%;
+    margin-top: 18%;
 }
 
 .body1{
-	height: 200px;
-	width: 40% ;
-	background-color: #FFFFFF;
-	margin: 25%;
-	border-radius: 10px;
-	overflow: hidden;
+	height: 267px;
+    width: 68%;
+    background-color: #FFFFFF;
+    margin: -11% auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.title{
+	text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10%;
+  	font-size: 16px;
+  	font-family: "GothamPro";
+  	color: rgb(87, 91, 102);
+  	text-transform: uppercase;
+  	line-height: 1.5;
+  	text-align: center;
+  	margin-bottom: 10%;
+}
+
+.price{
+	font-size: 52px;
+	color: #9aaf4e;
+  	font-family: "GothamPro";
+  	line-height: 1.2;
+  	text-align: center;
+}
+
+.description{
+  	font-size: 14px;
+    font-family: "GothamPro";
+    color: rgb(138, 142, 153);
+    line-height: 1.714;
+    text-align: center;
+    letter-spacing: 1.7px;
 }
 
 .rigthBlock{
 	height: 400px;
-	width: 50%;
-	background-color: #FFFFFF;
-	float: right;
-	border-radius: 0 20px 20px 0;
+    width: 51%;
+    background-color: #FFFFFF;
+    float: right;
+    border-radius: 0 20px 20px 0;
 }
 
 .body2{
 	height: 400px;
 	width: 100%;
-	display: inline-block;
-	overflow: hidden;
-
 }
 
 .block1{
-	height: 40px;
-	background-color: yellow;
+	height: 39px;
+    background-color: #fac746;
+    text-align: center;
+    padding-top: 5%;
+    margin-top: 17%;
+}
+
+.stock{
+  	font-size: 16px;
+    font-family: "GothamPro";
+    color: rgb(135, 108, 39);
+    line-height: 1.2;
+    letter-spacing: 2px;
 }
 
 .way{
 	float: left;
-
+    font-size: 16px;
+    font-family: "GothamPro";
+    font-weight: 200px;
+    text-transform: uppercase;
 }
 
 .sprite{
@@ -62,42 +105,92 @@ body{
   	width: 100%;
 	height:26px;
   	overflow: hidden;
+  	margin-top: 5%;
 }
 
 .pay{
 	height: 26px;
-	width: 26%;
-	margin-left: 40%;
+    width: 26%;
+    margin-left: 4.5%;
+    margin-top: -1%;
 }
 
 .button1{
-	width: 230px;
-	background-color: black;
-	border-radius: 30px;
-	text-align: center;
-	display: table-cell;
-	vertical-align: middle;
+	height: 6%;
+    width: 62.5%;
+    background-color: #aac65a;
+    border-radius: 44px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 12%;
 }
 
 .container1{
-	color:#FFFFFF;
-	text-decoration: none;
+	color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "GothamPro";
+    line-height: 1.5;
+    letter-spacing: 1.5px;
 }
 
 .button2{
-	width: 230px;
-	background-color: black;
-	border-radius: 30px;
-	text-align: center;
-	display: table-cell;
-	vertical-align: middle;
+	height: 5%;
+    width: 58%;
+    background-color: #fac746;
+    border-radius: 30px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .container2{
-	color:#FFFFFF;
+	color:#8f7229;
 	text-decoration: none;
 }
 
 span{
 	font-weight: bold;
+}
+
+.title1{
+  	font-size: 18px;
+    font-family: "GothamPro";
+    color: rgb(87, 91, 102);
+    line-height: 1.4;
+    text-align: left;
+    margin-top: 11.5%;
+    letter-spacing: 0.3px;
+    margin-bottom: 5%;
+}
+
+.text{
+    font-size: 18px;
+    font-family: "GothamPro";
+    color: rgb(87, 91, 102);
+    line-height: 1.5;
+    text-align: left;
+    letter-spacing: 1.2px;
+    margin-top: 2%;
+}
+
+.test5{
+	margin-top: 10px;
+}
+
+.last{
+	height: 2px;
+}
+
+.last2{
+	height: 9%;
+}
+
+.last3{
+	height: 5%;
+}
+
+.last6{
+	height: 15%;
 }
